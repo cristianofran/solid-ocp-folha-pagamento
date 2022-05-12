@@ -2,8 +2,8 @@
 
 namespace solid_ocp_folha_pagamento.Model
 {
-    public class ContratoClt : IRemuneracao
+    public class ContratoPj : IRemuneracao
     {
-        public double CalcularRemuneracao() => 1200;
+        public double CalcularRemuneracao() => 1200 * 2;
     }
 }

@@ -1,10 +1,9 @@
-﻿namespace solid_ocp_folha_pagamento.Model
+﻿using solid_ocp_folha_pagamento.Model.Interfaces;
+
+namespace solid_ocp_folha_pagamento.Model
 {
-    public class ContratoEstagio : Funcionario
+    public class ContratoEstagio : IRemuneracao
     {
-        public decimal BolsaAuxilio()
-        {
-            return 600;
-        }
+        public double CalcularRemuneracao() => 600;
     }
 }
